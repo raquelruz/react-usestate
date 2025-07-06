@@ -8,6 +8,7 @@ import { Add } from '../components/Add/Add';
 import { WebTabs } from '../components/WebTabs/WebTabs';
 import { CheckBox } from '../components/CheckBox/CheckBox';
 import { ChangeImg } from '../components/ChangeImg/ChangeImg';
+import { LikeBtn } from '../components/LikeBtn/LikeBtn';
 
 export const App = () => {
 	return (
@@ -31,6 +32,8 @@ export const App = () => {
       <CheckBox/>
 
       <ChangeImg />
+
+      <LikeBtn />
 		</>
 	);
 };
