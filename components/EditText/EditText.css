@@ -1,0 +1,42 @@
+.edittext-container {
+	text-align: center;
+	margin: 3rem auto;
+	font-family: "Segoe UI", sans-serif;
+	max-width: 400px;
+	padding: 1.5rem;
+	background-color: #f9fafe;
+	border-radius: 16px;
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+	transition: background-color 0.3s ease;
+}
+
+.edittext-container h2 {
+	cursor: pointer;
+	font-size: 2rem;
+	color: #2c3e50;
+	margin: 0;
+	transition: color 0.3s ease, border-bottom 0.3s ease;
+	border-bottom: 2px dashed transparent;
+}
+
+.edittext-container h2:hover {
+	color: #007acc;
+	border-bottom: 2px dashed #007acc;
+}
+
+.edittext-container input {
+	font-size: 2rem;
+	padding: 0.4rem 0.8rem;
+	border: 2px solid #007acc;
+	border-radius: 10px;
+	width: 100%;
+	max-width: 320px;
+	box-shadow: 0 0 10px rgba(0, 122, 204, 0.1);
+	outline: none;
+	transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.edittext-container input:focus {
+	border-color: #005fa3;
+	box-shadow: 0 0 12px rgba(0, 95, 163, 0.3);
+}
