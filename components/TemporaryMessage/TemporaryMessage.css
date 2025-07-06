@@ -1,0 +1,54 @@
+.temporarymessage-container {
+	text-align: center;
+	margin: 3rem auto;
+	padding: 2rem;
+	max-width: 400px;
+	font-family: "Segoe UI", sans-serif;
+	background-color: #f4f9ff;
+	border-radius: 16px;
+	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.temporarymessage-container button {
+	padding: 0.8rem 1.6rem;
+	font-size: 1rem;
+	background-color: #007acc;
+	color: #fff;
+	border: none;
+	border-radius: 12px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.temporarymessage-container button:hover {
+	background-color: #005fa3;
+}
+
+.message {
+	margin-top: 1.5rem;
+	background-color: #dff0d8;
+	color: #3c763d;
+	padding: 1rem;
+	border-radius: 10px;
+	font-weight: 500;
+	animation: fadeInOut 3s forwards;
+}
+
+@keyframes fadeInOut {
+	0% {
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+	10% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+	90% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+	100% {
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+}

@@ -10,6 +10,7 @@ import { CheckBox } from '../components/CheckBox/CheckBox';
 import { ChangeImg } from '../components/ChangeImg/ChangeImg';
 import { LikeBtn } from '../components/LikeBtn/LikeBtn';
 import { EditText } from '../components/EditText/EditText';
+import { TemporaryMessage } from '../components/TemporaryMessage/TemporaryMessage';
 
 export const App = () => {
 	return (
@@ -37,6 +38,8 @@ export const App = () => {
       <LikeBtn />
 
       <EditText />
+
+      <TemporaryMessage />
 		</>
 	);
 };
