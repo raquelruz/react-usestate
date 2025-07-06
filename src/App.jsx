@@ -3,6 +3,7 @@ import { ToggleBtn } from '../components/ToggleBtn/ToggleBtn';
 import { TextBox } from '../components/TextBox/TextBox';
 import './App.css'
 import { ShowHide } from '../components/ShowHide/ShowHide';
+import { ChangeColor } from '../components/ChangeColor/ChangeColor';
 
 export const App = () => {
 	return (
@@ -16,6 +17,8 @@ export const App = () => {
       <TextBox />
 
       <ShowHide/>
+
+      <ChangeColor/>
 		</>
 	);
 };
