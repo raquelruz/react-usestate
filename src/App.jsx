@@ -5,6 +5,7 @@ import './App.css'
 import { ShowHide } from '../components/ShowHide/ShowHide';
 import { ChangeColor } from '../components/ChangeColor/ChangeColor';
 import { Add } from '../components/Add/Add';
+import { WebTabs } from '../components/WebTabs/WebTabs';
 
 export const App = () => {
 	return (
@@ -22,6 +23,8 @@ export const App = () => {
       <ChangeColor/>
 
       <Add/>
+
+      <WebTabs/>
 		</>
 	);
 };
