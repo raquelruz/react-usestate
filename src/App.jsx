@@ -4,6 +4,7 @@ import { TextBox } from '../components/TextBox/TextBox';
 import './App.css'
 import { ShowHide } from '../components/ShowHide/ShowHide';
 import { ChangeColor } from '../components/ChangeColor/ChangeColor';
+import { Add } from '../components/Add/Add';
 
 export const App = () => {
 	return (
@@ -19,6 +20,8 @@ export const App = () => {
       <ShowHide/>
 
       <ChangeColor/>
+
+      <Add/>
 		</>
 	);
 };
