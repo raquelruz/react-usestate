@@ -1,4 +1,5 @@
 import { Counter } from '../components/Counter/Counter';
+import { ToggleBtn } from '../components/ToggleBtn/ToggleBtn';
 import './App.css'
 
 export const App = () => {
@@ -7,6 +8,8 @@ export const App = () => {
 			<h1>Primera app en React</h1>
 
       <Counter/>
+
+      <ToggleBtn />
 		</>
 	);
 };
