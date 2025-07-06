@@ -2,6 +2,7 @@ import { Counter } from '../components/Counter/Counter';
 import { ToggleBtn } from '../components/ToggleBtn/ToggleBtn';
 import { TextBox } from '../components/TextBox/TextBox';
 import './App.css'
+import { ShowHide } from '../components/ShowHide/ShowHide';
 
 export const App = () => {
 	return (
@@ -13,6 +14,8 @@ export const App = () => {
       <ToggleBtn />
 
       <TextBox />
+
+      <ShowHide/>
 		</>
 	);
 };
