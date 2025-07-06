@@ -6,6 +6,7 @@ import { ShowHide } from '../components/ShowHide/ShowHide';
 import { ChangeColor } from '../components/ChangeColor/ChangeColor';
 import { Add } from '../components/Add/Add';
 import { WebTabs } from '../components/WebTabs/WebTabs';
+import { CheckBox } from '../components/CheckBox/CheckBox';
 
 export const App = () => {
 	return (
@@ -25,6 +26,8 @@ export const App = () => {
       <Add/>
 
       <WebTabs/>
+
+      <CheckBox/>
 		</>
 	);
 };
