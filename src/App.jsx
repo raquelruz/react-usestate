@@ -1,5 +1,6 @@
 import { Counter } from '../components/Counter/Counter';
 import { ToggleBtn } from '../components/ToggleBtn/ToggleBtn';
+import { TextBox } from '../components/TextBox/TextBox';
 import './App.css'
 
 export const App = () => {
@@ -10,6 +11,8 @@ export const App = () => {
       <Counter/>
 
       <ToggleBtn />
+
+      <TextBox />
 		</>
 	);
 };
