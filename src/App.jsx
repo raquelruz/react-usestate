@@ -7,6 +7,7 @@ import { ChangeColor } from '../components/ChangeColor/ChangeColor';
 import { Add } from '../components/Add/Add';
 import { WebTabs } from '../components/WebTabs/WebTabs';
 import { CheckBox } from '../components/CheckBox/CheckBox';
+import { ChangeImg } from '../components/ChangeImg/ChangeImg';
 
 export const App = () => {
 	return (
@@ -28,6 +29,8 @@ export const App = () => {
       <WebTabs/>
 
       <CheckBox/>
+
+      <ChangeImg />
 		</>
 	);
 };

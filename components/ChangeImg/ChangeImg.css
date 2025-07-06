@@ -1,0 +1,50 @@
+.changeimg-container {
+	max-width: 420px;
+	margin: 3rem auto;
+	padding: 2rem;
+	background: linear-gradient(145deg, #f0f4ff, #d9e4ff);
+	border-radius: 20px;
+	box-shadow: 8px 8px 16px #b3c0ff, -8px -8px 16px #ffffff;
+	text-align: center;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	transition: background-color 0.4s ease;
+}
+
+.changeimg-container .imagen {
+	width: 100%;
+	max-width: 380px;
+	height: auto;
+	border-radius: 18px;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+	margin-bottom: 1.8rem;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	cursor: pointer;
+}
+
+.changeimg-container .imagen:hover {
+	transform: scale(1.06);
+	box-shadow: 0 12px 32px rgba(0, 0, 0, 0.18);
+}
+
+.changeimg-container button {
+	background-color: #005fcc;
+	color: #fff;
+	border: none;
+	padding: 0.85rem 2rem;
+	font-size: 1.1rem;
+	font-weight: 600;
+	border-radius: 14px;
+	cursor: pointer;
+	box-shadow: 0 6px 12px rgba(0, 95, 204, 0.5);
+	transition: background-color 0.3s ease, box-shadow 0.3s ease;
+	user-select: none;
+}
+
+.changeimg-container button:hover {
+	background-color: #004999;
+	box-shadow: 0 8px 18px rgba(0, 73, 153, 0.7);
+}
+
+.changeimg-container button:active {
+	transform: scale(0.97);
+}
